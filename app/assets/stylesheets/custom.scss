@@ -51,7 +51,7 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #88b9ec;
+  color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -59,7 +59,7 @@ p {
 }
 
 #logo:hover {
-  color: #fff;
+  color: orange;
   text-decoration: none;
 }
 
@@ -102,4 +102,33 @@ footer ul li {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+}
+
+
+
+li {
+  color:white;
+  margin-left: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
+
+ul {
+
+  padding: 1px;
+  padding-left: 40px;
+}
+a{
+  color:white;
+}
+.jumbotron{
+  margin-top: 25px;
+}
+.container{
+  margin-top: 25px;
+}
+#content_link{
+  color:blue;
 }
